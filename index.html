@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Andrey Nezhdanov - CV</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#about_me">ABOUT ME</a></li>
+        <li class="nav__item"><a class="nav__link" href="#skills">SKILLS</a></li>
+        <li class="nav__item"><a class="nav__link" href="#my-project">PROGECT</a></li>
+        <li class="nav__item"><a class="nav__link" href="#contacts">CONTACTS</a></li>
+        <li class="nav__item"><a class="nav__link" href="#education">EDUCATION</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="left-column">
+      <img class="left-column__photo" src="./assets/photo.jpg" alt="my-photo">
+      <section id="contacts">
+        <h2 class="left-column__title">CONTACTS</h2>
+        <ul class="left-column__list">
+          <li class="left-column__item">
+            Location: <br>
+            Moscow, Russia
+          </li>
+          <li class="left-column__item">
+            Email: <br>
+            <a class="left-column__link" href="mailto:nezhd.an@yandex.ru">nezhd.an@yandex.ru</a>
+          </li>
+          <li class="left-column__item">
+            Phone: <br>
+            <a class="left-column__link" href="tel:79163884667">+7-916-388-46-67</a>
+          </li>
+          <li class="left-column__item">
+            GitHub: <br>
+            <a class="left-column__link" href="https://github.com/montek1o" target="_blank">montek1o</a>
+          </li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2 class="left-column__title">EDUCATION</h2>
+        <ul class="left-column__list">
+          <li class="left-column__item">
+            2022 - 2023 <br>
+            Rolling Scopes School -<br>
+            Front-end Developer
+          </li>
+          <li class="left-column__item">
+            2022<br>
+            FreeCodeCamp
+          </li>
+          <li class="left-column__item">
+            2020 <br>
+            Moscow Aviation University -<br>
+            Сomputer science and engineering<br>
+            (Incomplete higher education)
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="right-column">
+      <section class="my-name">
+        <h1 class="my-name__title">
+          Andrey <br>
+          Nezhdanov
+        </h1>
+        <p class="my-name__subtitle">Junior Front-end developer</p>
+      </section>
+      <section id="about_me">
+        <h2 class="right-column__title">ABOUT ME</h2>
+        <div class="right-column__wrapper">
+          <p>
+            My name is Andrew. I work as a content manager at a medical clinic. I am engaged in site support, error correction and layout of landing pages.<br>
+            I have been programming for a year. As a Front-end developer I have made some small projects on JavaScript and React. I am always ready to work hard gradually improving my hard and soft skills.
+          </p>
+          <div class="codewars">
+            <a href="https://www.codewars.com/users/Montek1o" target="_blank"><img class="codewars__img" src="./assets/codewars.png" alt="codewars"></a>
+            <b>- my codewars account</b>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2 class="right-column__title">SKILLS</h2>
+        <div class="right-column__wrapper">
+          <p><b>Good level:</b></p>
+          <ul>
+            <li class="skills__item">HTML, CSS, SASS(SCSS), BEM</li>
+            <li class="skills__item">JavaScript, TypeScript</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">Webpack</li>
+          </ul>
+          <p style="margin-top: 20px;"><b>Initial level:</b></p>
+          <ul>
+            <li class="skills__item">React, Redux</li>
+          </ul>
+        </div>
+      </section>
+      <section id="my-project">
+        <h2 class="right-column__title">MY PROJECT</h2>
+        <div class="right-column__wrapper">
+          <a class="my-project__container" href="https://rolling-scopes-school.github.io/montek1o-JSFE2023Q1/RSS-CSS-Selectors/" target="_blank">
+            <img class="my-project__img" src="./assets/projects/css-training.png" alt="css-training">
+            <div class="my-project__icons">
+              <img class="my-project__icon" src="./assets/technologics/html.png" alt="HTML5" title="HTML5">
+              <img class="my-project__icon" src="./assets/technologics/css.png" alt="CSS3" title="CSS3">
+              <img class="my-project__icon" src="./assets/technologics/ts.png" alt="TypeScript" title="TypeScript">
+              <img class="my-project__icon" src="./assets/technologics/webpack.jpg" alt="Webpack" title="Webpack">
+              <img class="my-project__icon" src="./assets/technologics/spa.png" alt="Single Page application" title="Single Page application">
+            </div>
+          </a>
+          <h3>CSS Training</h3>
+          <p>An educational game for learning CSS selectors</p>
+        </div>
+        <div class="right-column__wrapper">
+          <a class="my-project__container" href="https://touristtracks-store.netlify.app/" target="_blank">
+            <img class="my-project__img" src="./assets/projects/ecommerce.jpg" alt="ecommerce">
+            <div class="my-project__icons">
+              <img class="my-project__icon" src="./assets/technologics/html.png" alt="HTML5" title="HTML5">
+              <img class="my-project__icon" src="./assets/technologics/sass.png" alt="SASS(SCSS)" title="SASS(SCSS)">
+              <img class="my-project__icon" src="./assets/technologics/ts.png" alt="TypeScript" title="TypeScript">
+              <img class="my-project__icon" src="./assets/technologics/webpack.jpg" alt="Webpack" title="Webpack">
+              <img class="my-project__icon" src="./assets/technologics/react.png" alt="React" title="React">
+              <img class="my-project__icon" src="./assets/technologics/redux.jpeg" alt="Redux" title="Redux">
+              <img class="my-project__icon" src="./assets/technologics/spa.png" alt="Single Page application" title="Single Page application">
+            </div>
+          </a>
+          <h3>eCommerce Application</h3>
+          <p>Online store of tourist goods</p>
+        </div>
+        <div class="right-column__wrapper">
+          <a class="my-project__container" href="https://rolling-scopes-school.github.io/montek1o-JSFEPRESCHOOL2022Q4/plants/" target="_blank">
+            <img class="my-project__img" src="./assets/projects/plants.png" alt="ecommerce">
+            <div class="my-project__icons">
+              <img class="my-project__icon" src="./assets/technologics/html.png" alt="HTML5" title="HTML5">
+              <img class="my-project__icon" src="./assets/technologics/sass.png" alt="SASS(SCSS)" title="SASS(SCSS)">
+              <img class="my-project__icon" src="./assets/technologics/js.png" alt="JavaScript" title="JavaScript">
+            </div>
+          </a>
+          <h3>Plants</h3>
+          <p>Cross-browser and adaptive landing</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
