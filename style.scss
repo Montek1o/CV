@@ -15,33 +15,6 @@ body {
   font-size: 1.2rem;
 }
 
-.header {
-  width: 100%;
-  background-color: #2c323d;
-}
-
-.nav__list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.nav__item {
-  list-style: none;
-}
-
-.nav__link {
-  display: block;
-  padding: 10px 5px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: all .5s ease;
-
-  &:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
-}
-
 .main {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -88,8 +61,8 @@ body {
 }
 
 .my-name__title {
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
 .my-name__subtitle {
@@ -114,7 +87,7 @@ body {
   margin-top: 10px;
 
   &__img {
-    width: 200px;
+    width: 350px;
   }
 }
 
