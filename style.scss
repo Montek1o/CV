@@ -32,18 +32,25 @@ body {
 .left-column__title {
   margin: 15px 0;
   background-color: #3b3f468f;
-  margin-left: 45px;
   padding: 5px 0 5px 20px;
   border-left: 20px solid rgb(35, 218, 242);
 }
 
 .left-column__list {
-  margin-left: 65px;
+  margin: 0 40px;
   list-style: none;
+
+  .skill {
+    list-style: inside;
+  }
+}
+
+.duties {
+  list-style: inside;
 }
 
 .left-column__item {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .left-column__link {
@@ -80,19 +87,28 @@ body {
   margin: 30px 40px;
 }
 
+.right-column__list {
+  list-style: none;
+}
+
+.right-column__item {
+  margin-top: 20px;
+}
+
 .codewars {
   display: flex;
   align-items: center;
   column-gap: 10px;
   margin-top: 10px;
 
+  a {
+    display: flex;
+    align-items: center;
+  }
+
   &__img {
     width: 350px;
   }
-}
-
-.skills__item {
-  margin-left: 20px;
 }
 
 .my-project__container {
